@@ -1,0 +1,5 @@
+if(EXISTS "Z:/Development/C++/laba2/build/tests/DecimalTests[1]_tests.cmake")
+  include("Z:/Development/C++/laba2/build/tests/DecimalTests[1]_tests.cmake")
+else()
+  add_test(DecimalTests_NOT_BUILT DecimalTests_NOT_BUILT)
+endif()

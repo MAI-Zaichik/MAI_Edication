@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libDecimal_lib.a CMakeFiles/Decimal_lib.dir/src/realisation.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libDecimal_lib.a

@@ -1,0 +1,44 @@
+[
+{
+  "directory": "Z:/Development/C++/laba1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\ToTurkish_lib.dir\\src\\ToTurkish.cpp.obj -c Z:\\Development\\C++\\laba1\\src\\ToTurkish.cpp",
+  "file": "Z:/Development/C++/laba1/src/ToTurkish.cpp",
+  "output": "CMakeFiles/ToTurkish_lib.dir/src/ToTurkish.cpp.obj"
+},
+{
+  "directory": "Z:/Development/C++/laba1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\TurkishConverter.dir\\src\\main.cpp.obj -c Z:\\Development\\C++\\laba1\\src\\main.cpp",
+  "file": "Z:/Development/C++/laba1/src/main.cpp",
+  "output": "CMakeFiles/TurkishConverter.dir/src/main.cpp.obj"
+},
+{
+  "directory": "Z:/Development/C++/laba1/build/tests",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToTurkish_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToTurkish_tests.dir\\Tests.cpp.obj -c Z:\\Development\\C++\\laba1\\tests\\Tests.cpp",
+  "file": "Z:/Development/C++/laba1/tests/Tests.cpp",
+  "output": "tests/CMakeFiles/ToTurkish_tests.dir/Tests.cpp.obj"
+},
+{
+  "directory": "Z:/Development/C++/laba1/build/tests/googletest/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c Z:\\Development\\C++\\laba1\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "Z:/Development/C++/laba1/googletest/googlemock/src/gmock-all.cc",
+  "output": "tests/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "Z:/Development/C++/laba1/build/tests/googletest/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c Z:\\Development\\C++\\laba1\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "Z:/Development/C++/laba1/googletest/googlemock/src/gmock_main.cc",
+  "output": "tests/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "Z:/Development/C++/laba1/build/tests/googletest/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c Z:\\Development\\C++\\laba1\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "Z:/Development/C++/laba1/googletest/googletest/src/gtest-all.cc",
+  "output": "tests/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "Z:/Development/C++/laba1/build/tests/googletest/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c Z:\\Development\\C++\\laba1\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "Z:/Development/C++/laba1/googletest/googletest/src/gtest_main.cc",
+  "output": "tests/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

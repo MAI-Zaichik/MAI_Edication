@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libToTurkish_lib.a CMakeFiles/ToTurkish_lib.dir/src/ToTurkish.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libToTurkish_lib.a

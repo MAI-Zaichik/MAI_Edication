@@ -1,0 +1,1 @@
+-IZ:/Development/C++/laba2/include -IZ:/Development/C++/laba2/googletest/googlemock/include -IZ:/Development/C++/laba2/googletest/googlemock -isystem Z:/Development/C++/laba2/googletest/googletest/include -isystem Z:/Development/C++/laba2/googletest/googletest
