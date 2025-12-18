@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/user/Documents/C++/laba1-1/build/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba1-1/build/tests/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba1-1/build/tests/googletest/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba1-1/build/tests/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba1-1/build/tests/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

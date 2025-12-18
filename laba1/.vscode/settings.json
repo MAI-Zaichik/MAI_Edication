@@ -1,6 +1,26 @@
 {
-    "files.associations": {
-        "unordered_map": "cpp",
-        "string": "cpp"
-    }
+    // Добавьте пути к MinGW
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
+    },
+    
+    // Для CMake Tools
+    "cmake.environment": {
+        "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
+    },
+    
+    // Для задач сборки
+    "cmake.configureEnvironment": {
+        "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
+    },
+    
+    // Явное указание компиляторов
+    "cmake.cmakePath": "C:\\msys64\\mingw64\\bin\\cmake.exe",
+    
+    // Генератор для MinGW
+    "cmake.generator": "MinGW Makefiles",
+    
+    // Для C/C++ расширения
+    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64"
 }
