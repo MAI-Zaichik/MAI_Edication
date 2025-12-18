@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/user/Documents/C++/laba6/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/Fight_tests[1]_tests.cmake")
+  include("C:/Users/user/Documents/C++/laba6/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/Fight_tests[1]_tests.cmake")
+else()
+  add_test(Fight_tests_NOT_BUILT Fight_tests_NOT_BUILT)
+endif()

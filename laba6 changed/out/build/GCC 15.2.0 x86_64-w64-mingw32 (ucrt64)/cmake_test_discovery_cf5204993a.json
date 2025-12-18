@@ -1,0 +1,63 @@
+{
+  "tests": 9,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "NPCTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DragonCanKill",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 10
+        },
+        {
+          "name": "BullCanKill",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 21
+        },
+        {
+          "name": "ToadCanKill",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "name": "FightTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "DragonKillsBullInRange",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 45
+        },
+        {
+          "name": "BullKillsToadInRange",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 64
+        },
+        {
+          "name": "NoKillOutOfRange",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 82
+        },
+        {
+          "name": "ToadCannotKillAnyone",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 97
+        },
+        {
+          "name": "DeadNPCsCannotFight",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 112
+        },
+        {
+          "name": "TwoWayFight",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba6\\tests\\test.cpp",
+          "line": 125
+        }
+      ]
+    }
+  ]
+}

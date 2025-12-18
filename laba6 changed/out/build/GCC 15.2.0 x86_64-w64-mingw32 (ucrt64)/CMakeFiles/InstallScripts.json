@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/user/Documents/C++/laba6/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba6/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba6/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/user/Documents/C++/laba6/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
