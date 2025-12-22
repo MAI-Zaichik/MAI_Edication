@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmain_lib.a CMakeFiles/main_lib.dir/src/diamond.cpp.obj CMakeFiles/main_lib.dir/src/figure.cpp.obj CMakeFiles/main_lib.dir/src/figures.cpp.obj CMakeFiles/main_lib.dir/src/pentagon.cpp.obj CMakeFiles/main_lib.dir/src/point.cpp.obj CMakeFiles/main_lib.dir/src/trapezoid.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmain_lib.a

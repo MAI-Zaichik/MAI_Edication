@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251222-0908-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.2.0"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="WIN-Z"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="8"
+	ModelName="AMD Ryzen 7 5700U with Radeon Graphics"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="16730"
+	TotalPhysicalMemory="15706"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1801"
+	>
+	<Testing>
+		<StartDateTime>Dec 22 12:19 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1766395148</StartTestTime>
+		<TestList>
+			<Test>./Figures_tests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Figures_tests</Name>
+			<Path>.</Path>
+			<FullName>./Figures_tests</FullName>
+			<FullCommandLine>"C:\Users\user\Documents\C++\laba3\out\build\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\tests.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.616897</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\user\Documents\C++\laba3\out\build\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\tests.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNU11P6zAMfe+v8OMmtGpfTAjpPkzlCiHEh6bxtExTlpotUpqUOGGMX0/ajrFyS7mW2tT1sXN8Es+81lJvIONSd7rwbE0GySV7IrTEfHizKyN8htoRS87OmOJrPmLGO7b2UqXsOklgcB4P4z68XUxWk3FvF54slNyNhtDxwrrJuMtWKebENsZsFDok1yMrTlxWusXXqiASCxEt/hxtCbMDy9EYChBVPAfnpQfkZVjjaNE72hKulVlzVQFQv0prdNEFELqez7+Bh6dlH43Ubh78aAGzp3sobfn1O/774rmSbj/V6VQIJArAyh5u24HQ6UNG3Z8K3zwctm2sVkWPJX7nX0HBGcdVN2rJmFue47uR6b9d10Lx1CIPzSRBSLR1ni3Axq7r+E+lEpPv78wrttX+jv1dkVp+myqD6r6USVeSZ0Y3SHISqJ1waLlOuwXYyPmH3f/7GB+D2nxjdMPdPYmUZ5NwJbziTsZxGIX5VhLk3Dowz+C2WPEIQ557BztOYDELQqdAUgsEGSbqTSCmVIG3FmlrVFpkD/rDMaz3xTwuow9psmKd====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Dec 22 12:19 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1766395149</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

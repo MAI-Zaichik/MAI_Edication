@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libLaba3_lib.a CMakeFiles/Laba3_lib.dir/src/diamond.cpp.obj CMakeFiles/Laba3_lib.dir/src/figure.cpp.obj CMakeFiles/Laba3_lib.dir/src/figures.cpp.obj CMakeFiles/Laba3_lib.dir/src/pentagon.cpp.obj CMakeFiles/Laba3_lib.dir/src/point.cpp.obj CMakeFiles/Laba3_lib.dir/src/trapezoid.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libLaba3_lib.a

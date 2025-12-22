@@ -48,10 +48,10 @@ int main()
     while (true) {
         std::cout << "\nDungeon Editor\n";
         std::cout << "1 - Add NPC\n";
-        std::cout << "2 - List\n";
-        std::cout << "3 - Save\n";
-        std::cout << "4 - Load\n";
-        std::cout << "5 - Fight\n";
+        std::cout << "2 - Show NPCs\n";
+        std::cout << "3 - Save to file\n";
+        std::cout << "4 - Load from file\n";
+        std::cout << "5 - Fight!!!\n";
         std::cout << "6 - Exit\n";
         std::cout << "> ";
 

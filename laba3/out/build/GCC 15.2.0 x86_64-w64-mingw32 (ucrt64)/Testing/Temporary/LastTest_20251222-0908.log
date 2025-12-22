@@ -1,0 +1,137 @@
+Start testing: Dec 22 12:19 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: Figures_tests
+1/1 Test: Figures_tests
+Command: "C:/Users/user/Documents/C++/laba3/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/tests.exe"
+Directory: C:/Users/user/Documents/C++/laba3/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)
+"Figures_tests" start time: Dec 22 12:19 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\Documents\C++\laba3\out\build\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 34 tests from 15 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from PointTest
+[ RUN      ] PointTest.EqualityAndAccess
+[       OK ] PointTest.EqualityAndAccess (0 ms)
+[ RUN      ] PointTest.IOTest
+[       OK ] PointTest.IOTest (0 ms)
+[----------] 2 tests from PointTest (0 ms total)
+
+[----------] 2 tests from TrapezoidTest
+[ RUN      ] TrapezoidTest.AreaAndCenter
+[       OK ] TrapezoidTest.AreaAndCenter (0 ms)
+[ RUN      ] TrapezoidTest.EqualityCopyMove
+[       OK ] TrapezoidTest.EqualityCopyMove (0 ms)
+[----------] 2 tests from TrapezoidTest (0 ms total)
+
+[----------] 1 test from DiamondTest
+[ RUN      ] DiamondTest.EqualityAndArea
+[       OK ] DiamondTest.EqualityAndArea (0 ms)
+[----------] 1 test from DiamondTest (0 ms total)
+
+[----------] 2 tests from PentagonTest
+[ RUN      ] PentagonTest.AreaCalculation
+[       OK ] PentagonTest.AreaCalculation (0 ms)
+[ RUN      ] PentagonTest.IOAndCopy
+[       OK ] PentagonTest.IOAndCopy (0 ms)
+[----------] 2 tests from PentagonTest (0 ms total)
+
+[----------] 1 test from FiguresTest
+[ RUN      ] FiguresTest.AddPrintAndTotalArea
+[       OK ] FiguresTest.AddPrintAndTotalArea (0 ms)
+[----------] 1 test from FiguresTest (0 ms total)
+
+[----------] 1 test from IOTest
+[ RUN      ] IOTest.InputOutputFigure
+[       OK ] IOTest.InputOutputFigure (0 ms)
+[----------] 1 test from IOTest (0 ms total)
+
+[----------] 3 tests from FigureBaseTest
+[ RUN      ] FigureBaseTest.DoubleEqualsCalcArea
+[       OK ] FigureBaseTest.DoubleEqualsCalcArea (0 ms)
+[ RUN      ] FigureBaseTest.OstreamOstreamOperatorsWorkPolymorphically
+[       OK ] FigureBaseTest.OstreamOstreamOperatorsWorkPolymorphically (0 ms)
+[ RUN      ] FigureBaseTest.IstreamOperatorDispatchesViaFigureRef
+[       OK ] FigureBaseTest.IstreamOperatorDispatchesViaFigureRef (0 ms)
+[----------] 3 tests from FigureBaseTest (0 ms total)
+
+[----------] 2 tests from PointMoreTest
+[ RUN      ] PointMoreTest.IndexingMutatesAndReads
+[       OK ] PointMoreTest.IndexingMutatesAndReads (0 ms)
+[ RUN      ] PointMoreTest.StreamInputRejectsBadData
+[       OK ] PointMoreTest.StreamInputRejectsBadData (0 ms)
+[----------] 2 tests from PointMoreTest (0 ms total)
+
+[----------] 3 tests from AreaTest
+[ RUN      ] AreaTest.TrapezoidAsRectangle
+[       OK ] AreaTest.TrapezoidAsRectangle (0 ms)
+[ RUN      ] AreaTest.DiamondAsSquareRotated
+[       OK ] AreaTest.DiamondAsSquareRotated (0 ms)
+[ RUN      ] AreaTest.PentagonShoelaceConsistency
+[       OK ] AreaTest.PentagonShoelaceConsistency (0 ms)
+[----------] 3 tests from AreaTest (0 ms total)
+
+[----------] 2 tests from CenterTest
+[ RUN      ] CenterTest.RectangleCenter
+[       OK ] CenterTest.RectangleCenter (0 ms)
+[ RUN      ] CenterTest.SymmetricDiamondCenterAtMidpoint
+[       OK ] CenterTest.SymmetricDiamondCenterAtMidpoint (0 ms)
+[----------] 2 tests from CenterTest (0 ms total)
+
+[----------] 2 tests from EqualityTest
+[ RUN      ] EqualityTest.ReflexiveSymmetricTransitive
+[       OK ] EqualityTest.ReflexiveSymmetricTransitive (0 ms)
+[ RUN      ] EqualityTest.DifferentOrderShouldNotBeEqualIfOrderMatters
+[       OK ] EqualityTest.DifferentOrderShouldNotBeEqualIfOrderMatters (0 ms)
+[----------] 2 tests from EqualityTest (0 ms total)
+
+[----------] 1 test from SpecialMembersTest
+[ RUN      ] SpecialMembersTest.CopyMoveTrapezoid
+[       OK ] SpecialMembersTest.CopyMoveTrapezoid (0 ms)
+[----------] 1 test from SpecialMembersTest (0 ms total)
+
+[----------] 4 tests from StreamIOTest
+[ RUN      ] StreamIOTest.TrapezoidReadWriteRoundTrip
+[       OK ] StreamIOTest.TrapezoidReadWriteRoundTrip (0 ms)
+[ RUN      ] StreamIOTest.DiamondReadWriteRoundTrip
+[       OK ] StreamIOTest.DiamondReadWriteRoundTrip (0 ms)
+[ RUN      ] StreamIOTest.PentagonReadWriteRoundTrip
+[       OK ] StreamIOTest.PentagonReadWriteRoundTrip (0 ms)
+[ RUN      ] StreamIOTest.InputFailsOnTooFewNumbers
+[       OK ] StreamIOTest.InputFailsOnTooFewNumbers (0 ms)
+[----------] 4 tests from StreamIOTest (0 ms total)
+
+[----------] 5 tests from FiguresContainerTest
+[ RUN      ] FiguresContainerTest.ConstructFromInitListAndSizes
+[       OK ] FiguresContainerTest.ConstructFromInitListAndSizes (0 ms)
+[ RUN      ] FiguresContainerTest.TotalAreaMatchesSum
+[       OK ] FiguresContainerTest.TotalAreaMatchesSum (0 ms)
+[ RUN      ] FiguresContainerTest.DeleteByIndexHeadMiddleTail
+[       OK ] FiguresContainerTest.DeleteByIndexHeadMiddleTail (0 ms)
+[ RUN      ] FiguresContainerTest.CopyAndMoveFiguresContainer
+[       OK ] FiguresContainerTest.CopyAndMoveFiguresContainer (0 ms)
+[ RUN      ] FiguresContainerTest.PrintHelpersDoNotCrashAndProduceOutput
+[       OK ] FiguresContainerTest.PrintHelpersDoNotCrashAndProduceOutput (0 ms)
+[----------] 5 tests from FiguresContainerTest (0 ms total)
+
+[----------] 3 tests from AreaRealisticTest
+[ RUN      ] AreaRealisticTest.TrapezoidGeneralConsistencyWithShoelace
+[       OK ] AreaRealisticTest.TrapezoidGeneralConsistencyWithShoelace (0 ms)
+[ RUN      ] AreaRealisticTest.DiamondConsistencyWithShoelace
+[       OK ] AreaRealisticTest.DiamondConsistencyWithShoelace (0 ms)
+[ RUN      ] AreaRealisticTest.PentagonConsistencyWithShoelace
+[       OK ] AreaRealisticTest.PentagonConsistencyWithShoelace (0 ms)
+[----------] 3 tests from AreaRealisticTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 34 tests from 15 test suites ran. (2 ms total)
+[  PASSED  ] 34 tests.
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"Figures_tests" end time: Dec 22 12:19 RTZ 2 (çèìà)
+"Figures_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 22 12:19 RTZ 2 (çèìà)

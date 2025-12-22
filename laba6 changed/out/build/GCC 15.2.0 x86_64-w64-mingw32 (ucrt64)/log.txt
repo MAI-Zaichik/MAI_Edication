@@ -2,3 +2,5 @@ Dragon killed :| Bull
 Bull killed :| Toad
 Dragon killed :| Bull
 Bull killed :| Toad
+Dragon killed :| Bull
+Bull killed :| Toad
