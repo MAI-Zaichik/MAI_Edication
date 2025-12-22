@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe    -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\Laba4.dir\\src\\main.cpp.obj -c C:\\Users\\user\\Documents\\C++\\laba4\\src\\main.cpp",
+  "file": "C:/Users/user/Documents/C++/laba4/src/main.cpp",
+  "output": "CMakeFiles/Laba4.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=gnu++20 -o CMakeFiles\\tests.dir\\test\\test_figures.cpp.obj -c C:\\Users\\user\\Documents\\C++\\laba4\\test\\test_figures.cpp",
+  "file": "C:/Users/user/Documents/C++/laba4/test/test_figures.cpp",
+  "output": "CMakeFiles/tests.dir/test/test_figures.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c \"C:\\Users\\user\\Documents\\C++\\laba4\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc\"",
+  "file": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c \"C:\\Users\\user\\Documents\\C++\\laba4\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc\"",
+  "file": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c \"C:\\Users\\user\\Documents\\C++\\laba4\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc\"",
+  "file": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp  -Werror=maybe-uninitialized -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c \"C:\\Users\\user\\Documents\\C++\\laba4\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc\"",
+  "file": "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

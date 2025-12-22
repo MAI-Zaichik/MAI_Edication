@@ -1,0 +1,83 @@
+Start testing: Dec 22 15:33 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: Figures_tests
+1/1 Test: Figures_tests
+Command: "C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/tests.exe"
+Directory: C:/Users/user/Documents/C++/laba4/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)
+"Figures_tests" start time: Dec 22 15:33 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\Documents\C++\laba4\out\build\GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 28 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 28 tests from FigureTest
+[ RUN      ] FigureTest.RhombusArea
+[       OK ] FigureTest.RhombusArea (0 ms)
+[ RUN      ] FigureTest.RhombusAreaZeroDiagonals
+[       OK ] FigureTest.RhombusAreaZeroDiagonals (0 ms)
+[ RUN      ] FigureTest.RhombusAreaLargeValues
+[       OK ] FigureTest.RhombusAreaLargeValues (0 ms)
+[ RUN      ] FigureTest.PentagonAreaZeroRadius
+[       OK ] FigureTest.PentagonAreaZeroRadius (0 ms)
+[ RUN      ] FigureTest.PentagonAreaLargeRadius
+[       OK ] FigureTest.PentagonAreaLargeRadius (0 ms)
+[ RUN      ] FigureTest.HexagonArea
+[       OK ] FigureTest.HexagonArea (0 ms)
+[ RUN      ] FigureTest.HexagonAreaZeroRadius
+[       OK ] FigureTest.HexagonAreaZeroRadius (0 ms)
+[ RUN      ] FigureTest.HexagonAreaLargeRadius
+[       OK ] FigureTest.HexagonAreaLargeRadius (0 ms)
+[ RUN      ] FigureTest.RhombusCenter
+[       OK ] FigureTest.RhombusCenter (0 ms)
+[ RUN      ] FigureTest.RhombusCenterNegativeCoordinates
+[       OK ] FigureTest.RhombusCenterNegativeCoordinates (0 ms)
+[ RUN      ] FigureTest.PentagonCenter
+[       OK ] FigureTest.PentagonCenter (0 ms)
+[ RUN      ] FigureTest.PentagonCenterLargeValues
+[       OK ] FigureTest.PentagonCenterLargeValues (0 ms)
+[ RUN      ] FigureTest.HexagonCenter
+[       OK ] FigureTest.HexagonCenter (0 ms)
+[ RUN      ] FigureTest.HexagonCenterAtOrigin
+[       OK ] FigureTest.HexagonCenterAtOrigin (0 ms)
+[ RUN      ] FigureTest.OperatorDouble
+[       OK ] FigureTest.OperatorDouble (0 ms)
+[ RUN      ] FigureTest.OperatorDoublePentagon
+[       OK ] FigureTest.OperatorDoublePentagon (0 ms)
+[ RUN      ] FigureTest.OperatorDoubleHexagon
+[       OK ] FigureTest.OperatorDoubleHexagon (0 ms)
+[ RUN      ] FigureTest.EqualitySameRhombus
+[       OK ] FigureTest.EqualitySameRhombus (0 ms)
+[ RUN      ] FigureTest.EqualitySamePentagon
+[       OK ] FigureTest.EqualitySamePentagon (0 ms)
+[ RUN      ] FigureTest.EqualitySameHexagon
+[       OK ] FigureTest.EqualitySameHexagon (0 ms)
+[ RUN      ] FigureTest.DifferentTypes
+[       OK ] FigureTest.DifferentTypes (0 ms)
+[ RUN      ] FigureTest.DifferentTypesHexagonRhombus
+[       OK ] FigureTest.DifferentTypesHexagonRhombus (0 ms)
+[ RUN      ] FigureTest.DifferentPentagonSizes
+[       OK ] FigureTest.DifferentPentagonSizes (0 ms)
+[ RUN      ] FigureTest.DefaultConstructors
+[       OK ] FigureTest.DefaultConstructors (0 ms)
+[ RUN      ] FigureTest.ParameterizedConstructors
+[       OK ] FigureTest.ParameterizedConstructors (0 ms)
+[ RUN      ] FigureTest.PrintRhombus
+[       OK ] FigureTest.PrintRhombus (4 ms)
+[ RUN      ] FigureTest.PrintPentagon
+[       OK ] FigureTest.PrintPentagon (3 ms)
+[ RUN      ] FigureTest.PrintHexagon
+[       OK ] FigureTest.PrintHexagon (3 ms)
+[----------] 28 tests from FigureTest (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 28 tests from 1 test suite ran. (13 ms total)
+[  PASSED  ] 28 tests.
+<end of output>
+Test time =   0.40 sec
+----------------------------------------------------------
+Test Passed.
+"Figures_tests" end time: Dec 22 15:33 RTZ 2 (çèìà)
+"Figures_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 22 15:33 RTZ 2 (çèìà)
