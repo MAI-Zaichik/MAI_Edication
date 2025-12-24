@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libFight_lib.a CMakeFiles/Fight_lib.dir/src/entilites.cpp.obj CMakeFiles/Fight_lib.dir/src/game_sys.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libFight_lib.a

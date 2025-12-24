@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fight_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Fight_lib.dir\\src\\entilites.cpp.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\src\\entilites.cpp",
+  "file": "C:/Users/user/Documents/C++/laba7/src/entilites.cpp",
+  "output": "CMakeFiles/Fight_lib.dir/src/entilites.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fight_lib.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Fight_lib.dir\\src\\game_sys.cpp.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\src\\game_sys.cpp",
+  "file": "C:/Users/user/Documents/C++/laba7/src/game_sys.cpp",
+  "output": "CMakeFiles/Fight_lib.dir/src/game_sys.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fight_async.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Fight_async.dir\\src\\main.cpp.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\src\\main.cpp",
+  "file": "C:/Users/user/Documents/C++/laba7/src/main.cpp",
+  "output": "CMakeFiles/Fight_async.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fight_tests.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Fight_tests.dir\\tests\\test.cpp.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+  "file": "C:/Users/user/Documents/C++/laba7/tests/test.cpp",
+  "output": "CMakeFiles/Fight_tests.dir/tests/test.cpp.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\user\\Documents\\C++\\laba7\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/Users/user/Documents/C++/laba7/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

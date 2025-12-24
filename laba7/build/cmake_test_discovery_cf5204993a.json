@@ -1,0 +1,101 @@
+{
+  "tests": 13,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "NPCBasicTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "Initialization",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 23
+        },
+        {
+          "name": "CoordinatesBounds",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 29
+        },
+        {
+          "name": "AliveState",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "name": "MovementTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "MoveChangesPosition",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 42
+        },
+        {
+          "name": "DeadNPCNoMove",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 49
+        },
+        {
+          "name": "StayInBounds",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 57
+        }
+      ]
+    },
+    {
+      "name": "CombatTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "KillRelationships",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 67
+        },
+        {
+          "name": "RangeDetection",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 78
+        },
+        {
+          "name": "FightMechanics",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 84
+        }
+      ]
+    },
+    {
+      "name": "FactoryTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "CreateValidTypes",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 93
+        },
+        {
+          "name": "InvalidTypeReturnsNull",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "name": "IntegrationTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "CompleteInteraction",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 110
+        },
+        {
+          "name": "TypeConversion",
+          "file": "C:\\Users\\user\\Documents\\C++\\laba7\\tests\\test.cpp",
+          "line": 124
+        }
+      ]
+    }
+  ]
+}

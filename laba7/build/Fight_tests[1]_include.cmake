@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/user/Documents/C++/laba7/build/Fight_tests[1]_tests.cmake")
+  include("C:/Users/user/Documents/C++/laba7/build/Fight_tests[1]_tests.cmake")
+else()
+  add_test(Fight_tests_NOT_BUILT Fight_tests_NOT_BUILT)
+endif()
