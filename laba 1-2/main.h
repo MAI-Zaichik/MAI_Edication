@@ -9,4 +9,4 @@ enum errors
 };
 
 int valid_x(char *strx, int *x);
-int simple_number(int x, int *res);
+int resheto(int max, int *list, int *res_list, int n);

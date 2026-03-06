@@ -25,46 +25,71 @@ int valid_x(char *strx, int *x)
     return OK;
 }
 
-int simple_number(int x, int *res)
-{
-    if (x == 1) 
-    {
-        *res = 2;
-        return OK;
-    }
 
-    int count = 1;
-    int last_simple = 1;
+int resheto(int max, int *list, int *res_list, int n)
+{
+    int limit;
+    if (max <= 10)
+        limit = 30;
+    else if (max <= 100)
+        limit = 550;
+    else
+        limit = 7920;
+
+    // Массив для решета 
+    int sieve[limit + 1];
     
-    while (count < x) 
+    // Инициализация: все числа изначально считаем простыми
+    for (int i = 0; i <= limit; i++)
     {
-        last_simple += 2;
-        int is_prime = 1;
-        
-        for (int j = 3; j * j <= last_simple; j += 2) 
+        sieve[i] = 1;
+    }
+    
+    sieve[0] = sieve[1] = 0;
+    
+    // Массив для хранения простых чисел
+    int list_of_simple_numbers[limit + 1];
+    int prime_count = 0;
+
+    for (int i = 2; i <= limit; i++)
+    {
+        if (sieve[i] == 1)
         {
-            if (last_simple % j == 0) 
+            // Сохраняем простое число в массив
+            list_of_simple_numbers[prime_count] = i;
+            prime_count++;
+            
+            // Вычеркиваем кратные
+            for (int j = i * 2; j <= limit; j += i)
             {
-                is_prime = 0;
-                break;
+                sieve[j] = 0;
             }
         }
-        
-        if (is_prime) 
+
+        if (prime_count == max + 1)
         {
-            count++;
-        }
-        
-        if (last_simple > INT_MAX - 3) 
-        {
-            return ERROR_OVERFLOW;
+            break;
         }
     }
     
-    *res = last_simple;
+    // Находим нужные простые числа
+    for (int i = 0; i < n; i++)
+    {
+        int position = list[i] - 1;
+        
+        
+        if (position >= 0 && position < prime_count)
+        {
+            res_list[i] = list_of_simple_numbers[position];
+        }
+        else
+        {
+            res_list[i] = 0;
+        }
+    }
+    
     return OK;
 }
-
 
 int main()
 {   
@@ -83,7 +108,7 @@ int main()
     int listres[n];
     char strx[12];
     int x;
-    int sn = 1;
+    int max = 0;
 
     printf("Input %d numbers:\n", n);
     for (int i = 0; i < n; i++)
@@ -110,6 +135,11 @@ int main()
         if (valid_x(strx, &x) == OK)
         {
             listn[i] = x;
+
+            if (x > max)
+            {
+                max = x;
+            }
         }
         else if (valid_x(strx, &x) == INVALID_INPUT)
         {
@@ -123,18 +153,7 @@ int main()
         }
     }
 
-    for (int i = 0; i < n; i++)
-    {
-        enum errors list_error = simple_number(listn[i], &sn);
-            if(list_error == ERROR_OVERFLOW)
-            {
-                listres[i] = 0;
-            }
-            else
-            {
-                listres[i] = sn;
-            }
-    }
+    resheto(max, listn, listres, n);
 
     printf("Simple numbers:\n");
     for (int i = 0; i < n; i++)

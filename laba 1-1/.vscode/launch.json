@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "z:/Development/C/laba 1-2",
-      "program": "z:/Development/C/laba 1-2/build/Debug/outDebug",
+      "cwd": "z:/Development/C/laba 1-1",
+      "program": "z:/Development/C/laba 1-1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,0 +1,32 @@
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+
+#include <stddef.h>
+
+#ifndef VECTOR_TYPE
+#error "VECTOR_TYPE must be defined before including this header"
+#endif
+
+// Структура Vector
+typedef struct {
+    VECTOR_TYPE *data;           // указатель на элементы
+    size_t size;                  // текущее количество элементов
+    size_t capacity;               // вместимость (количество выделенных элементов)
+    VECTOR_TYPE (*CopyVoidPtr)(VECTOR_TYPE);  // функция копирования
+    void (*DeleteVoidPtr)(VECTOR_TYPE);        // функция удаления
+} Vector;
+
+
+Vector create_vector(size_t initial_capacity, 
+                     VECTOR_TYPE (*CopyFunc)(VECTOR_TYPE), 
+                     void (*DeleteFunc)(VECTOR_TYPE));
+void erase_vector(Vector *v);
+int is_equal_vector(const Vector *v1, const Vector *v2);
+void copy_vector(Vector *dest, const Vector *src);
+Vector* copy_vector_new(const Vector *src);
+void push_back_vector(Vector *v, VECTOR_TYPE value);
+void delete_at_vector(Vector *v, size_t index);
+VECTOR_TYPE get_at_vector(const Vector *v, size_t index);
+void delete_vector(Vector *v);
+
+#endif
